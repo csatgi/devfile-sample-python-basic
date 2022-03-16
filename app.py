@@ -8,7 +8,7 @@ def hello():
     return "Hello My World! V3"
 
 @app.route('/king')
-def hello():
+def hello_king():
     return "God save the king!"
 
 
