@@ -5,7 +5,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello My World!"
+    return "Hello My World! V3"
+
+@app.route('/king')
+def hello():
+    return "God save the king!"
+
 
 if __name__ == '__main__':
     serve(app, host='0.0.0.0', port=8080)
